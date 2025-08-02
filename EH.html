@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penetration Testing Report - Zubair Malimar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛡️ Penetration Testing Assessment</h1>
+            <p>SME Network Security Assessment - Muhammed Zubair Malimar</p>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3>15+</h3>
+                <p>Vulnerabilities Found</p>
+            </div>
+            <div class="stat-card">
+                <h3>2/2</h3>
+                <p>Systems Compromised</p>
+            </div>
+            <div class="stat-card">
+                <h3>6</h3>
+                <p>Passwords Cracked</p>
+            </div>
+            <div class="stat-card">
+                <h3>100%</h3>
+                <p>Network Penetrated</p>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="upload-section">
+                <h2>📄 Upload New Report</h2>
+                <div class="upload-area" id="uploadArea">
+                    <input type="file" id="fileInput" accept=".pdf" hidden>
+                    <div class="upload-content">
+                        <div class="upload-icon">📁</div>
+                        <p>Click or drag PDF files here</p>
+                        <small>Supports PDF files up to 10MB</small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="reportTitle" placeholder="Report Title (e.g., SME Network Assessment)">
+                    <input type="date" id="reportDate">
+                    <input type="text" id="targetNetwork" placeholder="Target Network (e.g., 192.168.10.0/24)">
+                    <button onclick="uploadReport()">📤 Upload Report</button>
+                </div>
+            </div>
+
+            <div class="reports-section">
+                <h2>📋 Available Reports</h2>
+                <div class="reports-list" id="reportsList">
+                    <div class="report-item">
+                        <div class="report-info">
+                            <h3>🎯 SME Network Penetration Test</h3>
+                            <p><strong>Date:</strong> October 13, 2023</p>
+                            <p><strong>Target:</strong> 192.168.10.0/24</p>
+                            <p><strong>Status:</strong> <span class="status-complete">Completed</span></p>
+                            <p><strong>Findings:</strong> 15 vulnerabilities, 2 systems compromised</p>
+                        </div>
+                        <div class="report-actions">
+                            <a href="#" onclick="viewMainReport()" class="btn-view">📖 View Report</a>
+                            <button class="btn-details" onclick="showDetails()">🔍 Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="methodology-section">
+            <h2>🔬 PTES Methodology</h2>
+            <div class="methodology-grid">
+                <div class="method-card">
+                    <h3>1️⃣ Pre-engagement</h3>
+                    <p>Scope definition and authorization</p>
+                </div>
+                <div class="method-card">
+                    <h3>2️⃣ Intelligence Gathering</h3>
+                    <p>Network reconnaissance using Netdiscover, Nmap</p>
+                </div>
+                <div class="method-card">
+                    <h3>3️⃣ Threat Modeling</h3>
+                    <p>Vulnerability analysis and attack vectors</p>
+                </div>
+                <div class="method-card">
+                    <h3>4️⃣ Exploitation</h3>
+                    <p>MS17-010 EternalBlue, password cracking</p>
+                </div>
+                <div class="method-card">
+                    <h3>5️⃣ Post-Exploitation</h3>
+                    <p>Privilege escalation, lateral movement</p>
+                </div>
+                <div class="method-card">
+                    <h3>6️⃣ Reporting</h3>
+                    <p>Documentation and recommendations</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tools-section">
+            <h2>🔧 Tools Used</h2>
+            <div class="tools-grid">
+                <div class="tool-card metasploit">
+                    <h3>🚀 Metasploit</h3>
+                    <p>Exploitation Framework</p>
+                    <small>Used for MS17-010 EternalBlue exploit</small>
+                </div>
+                <div class="tool-card nmap">
+                    <h3>🔍 Nmap</h3>
+                    <p>Network Scanner</p>
+                    <small>Port scanning and service enumeration</small>
+                </div>
+                <div class="tool-card hydra">
+                    <h3>💧 Hydra</h3>
+                    <p>Password Cracker</p>
+                    <small>SSH brute force attacks</small>
+                </div>
+                <div class="tool-card john">
+                    <h3>🔓 John the Ripper</h3>
+                    <p>Hash Cracker</p>
+                    <small>NTLM password hash cracking</small>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>📧 <strong>Author:</strong> Muhammed Zubair Malimar | 🎓 <strong>Course:</strong> MSc Cyber Security</p>
+            <p>⚠️ <strong>Disclaimer:</strong> This testing was conducted in a controlled lab environment for educational purposes only.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
