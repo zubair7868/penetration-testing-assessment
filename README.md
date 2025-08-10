@@ -37,11 +37,6 @@ Simulated a full-scale penetration test on a virtual SME network using the Penet
 5. **Post-Exploitation** - Privilege escalation
 6. **Reporting** - Documentation & recommendations
 
-## 📈 Results Summary
-- **Total Vulnerabilities:** 15+
-- **Critical Issues:** 5
-- **Systems Compromised:** 2/2
-- **Passwords Cracked:** 6
 
 ## ⚠️ Legal Disclaimer
 This project was conducted in a controlled lab environment for educational purposes only. All testing was performed on authorized systems.
@@ -49,4 +44,4 @@ This project was conducted in a controlled lab environment for educational purpo
 ---
 **Author:** Muhammed Zubair Malimar  
 **Course:** MSc Cyber Security - Ethical Hacking Module  
-**Institution:** [Your University]
+**Institution:** Coventry University
