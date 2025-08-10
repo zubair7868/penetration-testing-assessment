@@ -20,7 +20,7 @@ Simulated a full-scale penetration test on a virtual SME network using the Penet
 - **Netdiscover** - Network discovery
 
 ## 📊 Live Demo
-[**View Interactive Report Dashboard**](https://yourusername.github.io/ethical-hacking-pentest/)
+[**View Interactive Report Dashboard**](https://zubair7868.github.io/penetration-testing-assessment/)
 
 ## 📋 Network Targets
 | IP Address | System | Status |
